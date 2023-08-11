@@ -1,0 +1,104 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, li {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Global styles */
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+  }
+  
+  header {
+    background-color: green;
+    color: #fff;
+    padding: 1rem;
+  }
+  
+  nav ul {
+    list-style:circle;
+    display: inline-block;
+    justify-content: center;
+  }
+  
+  nav ul li {
+    margin: 0 0.5rem;
+
+  }
+  
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 2rem;
+  }
+  
+  section {
+    margin-bottom: 2rem;
+  }
+  
+  h2 {
+    margin-bottom: 1rem;
+  }
+  
+  /* Add your own custom styles here */
+  .profile-picture{
+width: 150px;
+height: 150px;
+border-radius: 50%;
+background-image:url('IMG_5181.jpeg');
+background-size: contain;
+background-position: center;
+  }
+.container{
+  display: flex;
+  
+}
+
+
+
+  .box {
+    width: 400px;
+    height: 200px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    display: inline-block;
+    position: static;
+    transition: transform 0.3s, background-color 0.3s;
+    background-image: url();
+  }
+  
+  .box:hover {
+    transform: translateY(-5px);
+    background-color: green;
+  }
+  
+  .box a {
+    text-decoration: none;
+    color: #000;
+  }
+  
+  .box img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .box h3 {
+    text-align: center;
+    margin-top: 10px;
+  }
+  
+
+#about {
+display: grid;
+margin: 15px;
+padding: 10px;
+text-align: left;
+text-decoration: solid;    
+  }
